@@ -1,5 +1,6 @@
 
 # WAP to print duplicate characters in a string.
+# WAP to find duplicate characters in a string.
 
 input1=input("enter a string").lower()                     #taking input from a string
 strings_list=[]
@@ -10,7 +11,7 @@ for each_char in strings_list:
 	count_of_each_char=0
 	for check_char in input1:
 		if each_char==check_char:
-			count_of_each_char+=1                                       #we are calculating the how many times it is coming
-	if count_of_each_char>1:                                            #if the count is greater than 1 means it came more than 2 times so we are printing tha character
+			count_of_each_char+=1                          #we are calculating the how many times it is coming
+	if count_of_each_char>1:                               #if the count is greater than 1 means it came more than 2 times so we are printing tha character
 		print(each_char)
 

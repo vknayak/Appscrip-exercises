@@ -6,6 +6,6 @@ def onlydigits(input_of_user):
             pass
         else:
             return False
-    return True
+    return True                                # it will return True when all the characters are digits only
 
 print(onlydigits(input("enter something to check onlydigits or not: ")))  # if you are giving total integers it will give result as true otherwise false

@@ -11,7 +11,7 @@ input1=list(input("enter a string").lower())
 
 for each_char in input1:
 	if each_char not in vowels:
-		count_of_consonants+=1
+		count_of_consonants+=1                         #if character is not in my declared variable as vowels that means it is a consonant so increase the count of consonant
 	else:
 		count_of_vowels+=1
 
